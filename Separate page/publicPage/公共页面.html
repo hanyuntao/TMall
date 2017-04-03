@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>公共页面</title>
+	<!-- 为了使用图标，引入了Bootstrap和Jquery -->
+	<link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+		body {
+			font-size   : 12px;
+			font-family : Arial;
+		}
+		a {
+			color : #999;
+		}
+		.redColor {
+			color : #C40000 !important;
+		}
+		nav.top {
+			background-color : #f2f2f2;
+			padding-top      : 5px;
+			padding-bottom   : 5px;
+			border-bottom    : 1px solid #e7e7e7;
+			/*下边缘有1个像素的实线边框，颜色是比背景色#f2f2f2略深的#e7e7e7*/
+		}
+		nav.top sapn,nav.top a {
+			color  : #999;
+			margin : 0px 10px 0 10px;
+		}
+		.top a:hover {
+			color : #c40000;
+			/*当鼠标移动到超链上的时候，颜色变为天猫红 #C4000*/
+		}
+		div.searchDiv {
+			background-color : #c40000;
+			width            : 400px;
+			margin           : 50px auto;
+			padding          : 1px;
+			height           : 40px;
+		}
+		div.searchDiv input {
+			width   : 275px;
+			border  : 1px solid transparent;
+			height  : 36px;
+			margin  : 1px;
+			outline : none;
+			/*去掉输入框轮廓，否则获取焦点的时候会发生颜色变化*/
+		}
+		.serchButton {
+			width            : 110px;
+			border           : 1px solid transparent;
+			background-color : #c40000;
+			color            : white;
+			font-size        : 20px;
+			font-weight      : bold;
+		}
+		div.searchBelow {
+			margin-top  : 3px;
+			margin-left : -20px;
+		}
+		div.searchBelow span {
+			color :#999;
+		}
+		div.searchBelow a {
+			padding   : 0 20px 0 20px;
+			font-size : 14px;
+		}
+		img.logo {
+			position : absolute;
+			left     : 0px;
+			top      : 30px;
+			z-index  : -1;
+		}
+		div.searchBelow a:hover {
+			text-decoration : none;
+		}
+		div.simpleSearchDiv {
+			width            : 300px;
+			background-color : #c40000;
+			margin           : 10px 20px 30px;
+			padding          : 1px;
+			height           : 40px;
+		}
+		div.simpleSearchDiv input {
+			margin  : 1px;
+			border  : 1px solid transparent;
+			outline : none;
+			height  : 36px;
+			width   : 175px
+		}
+		img.simpleLogo {
+			position : absolute;
+			top      : 160px;
+			left     : 20px;
+		}
+		div.footer {
+			border-top : 1px solid #e7e7e7;
+			margin     : 0;
+		}
+		div.footer_ensure {
+			margin     : 24px 0;
+			text-align : center;
+		}
+		div.footer_desc {
+			border-top  : 1px solid #e7e7e7;
+			padding-top : 30px;
+			margin      : 0 30px;
+		}
+		div.descColumn {
+			width        : 20%;
+			float        : left;
+			padding-left : 15px;
+		}
+		div.descColumn .descColumnTitle {
+			font-size   : 16px;
+			font-weight : bold;
+			color       : #646464;
+		}
+		div.descColumn a {
+			display     : block;
+			/*超链默认是inline,会水平摆放，改成block出现换行效果*/
+			padding-top : 3px;
+		}
+		div.descColumn a:hover {
+			text-decoration: none;
+		}
+		div.copyRight {
+			background-color : black;
+			border-top       : 2px solid #c40000;
+		}
+		div.copyRight span.slash {
+			color : white;
+		}
+		div.copyRight div.white_link {
+			color   : white;
+			padding : 0 5px;
+		}
+		div.white_link {
+			margin : 10px 10px;
+		}
+		div.license {
+			margin-left    : 10px;
+			padding-bottom : 30px;
+		}
+		div.license span {
+			color : #A4A4A4;
+		}
+		div.copyRightYear {
+			margin : 10px 0px;
+			color  : #686868;
+		}
+		img.cateye {
+			margin-left : 20px;
+		}
+	</style>
+</head>
+<body>
+	<!-- 置顶导航 -->
+	<nav class="top">
+		<a href="#">
+			<span class="glyphicon glyphicon glyphicon-home redColor"></span>
+			天猫首页
+		</a>
+		<span>喵，欢迎来天猫</span>
+		<a href="#">请登录</a>
+		<a href="#">免费注册</a>
+		<span class="pull-right">
+			<a href="#">我的订单</a>
+			<a href="#">
+				<span  class="glyphicon glyphicon-shopping-cart redColor"></span>
+				购物车<strong>0</strong>件
+			</a>
+		</span>
+	</nav>
+	<!-- 搜索框 -->
+	<div>
+		<a href="#"><img src="images/logo.gif" alt="logo.gif" class="logo"></a>
+		<div class="searchDiv">
+			<input type="text" placeholder="时尚男鞋  太阳镜" name="kayword">
+			<button class="serchButton" type="submit">搜索</button>
+			<div class="searchBelow">
+				<span><a href="#">平衡车</a></span>
+				<span>|</span>
+				<span><a href="#">扫地机器人</a></span>
+				<span>|</span>
+				<span><a href="#">原汁机</a></span>
+				<span>|</span>
+				<span><a href="#">冰箱</a></span>
+			</div>
+		</div>
+	</div>
+	<!-- 简单搜索框 -->
+	<!-- <div>
+		<a href="#">
+			<img src="images/simpleLogo.png" alt="天猫logo" class="simpleLogo">
+		</a>
+		<div class="simpleSearchDiv pull-right">
+			<input type="text" placeholder="平衡车  原汁机" name="keyword">
+			<button type="submit" class="serchButton">搜索</button>
+			<div class="searchBelow">
+				<span><a href="#">冰箱</a></span>
+				<span>|</span>
+				<span><a href="#">空调</a></span>
+				<span>|</span>
+				<span><a href="#">女表</a></span>
+				<span>|</span>
+				<span><a href="#">男表</a></span>
+			</div>
+		</div>
+	</div> -->
+	<!-- 页脚一 -->
+	<div class="footer" id="footer">
+		<div class="footer_ensure" id="footer_ensure">
+			<img src="images/ensure.png" alt="保障">
+		</div>
+		<div class="footer_desc" id="footer_desc">
+			<div class="descColumn">
+				<span class="descColumnTitle">购物指南</span>
+				<a href="#">免费注册</a>
+				<a href="#">开通支付宝</a>
+				<a href="#">支付宝充值</a>
+			</div>
+			<div class="descColumn">
+				<span class="descColumnTitle">天猫保障</span>
+				<a href="#">发票保障</a>
+				<a href="#">售后规则</a>
+				<a href="#">缺货赔付</a>
+			</div>
+			<div class="descColumn">
+				<span class="descColumnTitle">支付方式</span>
+				<a href="#">快捷支付</a>
+				<a href="#">信用卡</a>
+				<a href="#">蚂蚁花呗</a>
+				<a href="#">货到付款</a>
+			</div>
+			<div class="descColumn">
+				<span class="descColumnTitle">商家服务</span>
+				<a href="#">商家入驻</a>
+				<a href="#">商家中心</a>
+				<a href="#">天猫智库</a>
+				<a href="#">天猫规则</a>
+				<a href="#">物流服务</a>
+				<a href="#">喵言喵语</a>
+				<a href="#">运营服务</a>
+			</div>
+			<div class="descColumn">
+				<span class="descColumnTitle">手机天猫</span>
+				<a href="#"><img src="images/ma.png" alt="二维码"></a>
+			</div>
+		</div>
+		<div style="clear:both"></div>
+		<img src="images/cateye.png" alt="" class="cateye">
+		<div class="copyRight" id="copyRight">
+			<div class="white_link">
+				<a href="#">关于天猫</a>
+				<a href="#">帮助中心</a>
+				<a href="#">开放平台</a>
+				<a href="#">诚聘英才</a>
+				<a href="#">联系我们</a>
+				<a href="#">网站合作</a>
+				<a href="#">法律声明</a>
+				<a href="#">知识产权</a>
+				<a href="#">廉正举报</a>
+			</div>
+			<div class="white_link">
+				<a href="#nowhere">阿里巴巴集团</a>
+				<span class="slash">|</span>
+	            <a href="#nowhere">淘宝网</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">天猫</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">聚划算</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">全球速卖通</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">阿里巴巴国际交易市场</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">1688</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">阿里妈妈</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">阿里旅行·去啊</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">阿里云计算</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">阿里通信</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">YunOS</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">阿里旅行·去啊</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">万网</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">高德</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">优视</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">友盟</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">虾米</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">天天动听</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">来往</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">钉钉</a>
+	            <span class="slash">|</span>
+	            <a href="#nowhere">支付宝</a>
+			</div>
+			<div class="license">
+	            <span>增值电信业务经营许可证： 浙B2-20110446</span>
+	            <span>网络文化经营许可证：浙网文[2015]0295-065号</span>
+	            <span>互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号 </span>
+	            <span>互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005</span>
+	            <div class="copyRightYear">© 2003-2016 TMALL.COM 版权所有</div>
+	            <div>
+	                <img src="images/copyRight1.jpg">
+	                <img src="images/copyRight2.jpg">
+            </div>
+        </div>
+		</div>
+	</div>
+</body>
+</html>

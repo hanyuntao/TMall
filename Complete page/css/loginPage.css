@@ -1,0 +1,70 @@
+div.simpleLogo{
+    padding : 32px 0px;
+}
+img.loginBackgroundImg{
+    display : block;
+    margin  : 0px auto;
+}
+#loginDivContent {
+    position  : relative;
+    max-width : 1190px;
+    margin    : 0 auto;
+}
+div.loginSmallDiv{
+    background-color : white;
+    position         : absolute;
+    right            : 40px;
+    top              : 90px;
+    width            : 350px;
+    height           : 400px;
+    padding          : 60px 25px 80px 25px;
+}
+div.login_acount_text{
+    color       : #3C3C3C;
+    font-size   : 16px;
+    font-weight : bold;
+}
+div.loginInput{
+    border : 1px solid #CBCBCB;
+    margin : 20px 0px;
+}
+div.loginInput span.loginInputIcon{
+    margin           : 0px;
+    background-color : #CBCBCB;
+    width            : 40px;
+    height           : 40px;
+    display          :inline-block;
+}
+span.loginInputIcon span.glyphicon{
+    font-size : 22px;
+    position  : relative;
+    left      : 9px;
+    top       : 9px;
+    color     : #606060;
+}
+div.loginInput input{
+    display  : inline-block;
+    border   : 0px solid transparent;
+    width    : 244px;
+    height   : 30px;
+    position : relative;
+    left     : 6px;
+    top      : 6px;
+}
+body{
+    font-size   : 12px;
+    font-family : Arial;
+}
+a{
+    color :#999;
+}
+a:hover{
+    text-decoration :none;
+    color           : #C40000;
+}
+button.redButton{
+    color            : white;
+    background-color : #C40000;
+    font-size        : 14px;
+    font-weight      : bold;
+}

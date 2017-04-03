@@ -1,0 +1,49 @@
+div.confirmPayPageDiv{
+    max-width : 1013px;
+    margin    : 10px auto;
+}
+div.confirmPayOrderDetailDiv{
+    margin : 40px;
+}
+table.confirmPayOrderDetailTable{
+    width      : 100%;
+    border-top : 1px solid #DDDDDD;
+}
+table.confirmPayOrderDetailTable td{
+    padding   : 8px;
+    color     : black;
+    font-size : 14px;
+}
+span.confirmPayOrderDetailWangWangGif{
+    display           : inline-block;
+    width             : 67px;
+    height            : 22px;
+    background-image  :url(../images/wangwang.gif);
+    background-repeat : no-repeat;
+    background-color  : transparent;
+    position          : relative;
+    left              : 2px;
+}
+div.confirmPayButtonDiv{
+    border : 1px solid #F58B0F;
+    margin : 20px;
+}
+div.confirmPayWarning{
+    margin      : 20px 80px;
+    font-size   : 18px;
+    color       : red;
+    font-weight : bold;
+}
+button.confirmPayButton{
+    margin           : 20px 80px;
+    width            :67px;
+    height           : 30px;
+    border           : 1px solid #E67C00;
+    background-color : #F4A21D;
+    border-radius    : 4px;
+    color            : white;
+    font-size        :12px;
+}
+button.confirmPayButton:hover{
+    background-color : #F6AE30;
+}

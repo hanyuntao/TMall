@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>评价页面下</title>
+    <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="reviewDiv">
+        <div class="reviewStasticsDiv">
+            <div class="reviewStasticsLeft">
+                    <div class="reviewStasticsLeftTop"></div>
+                    <div class="reviewStasticsLeftContent">累计评价 <span class="reviewStasticsNumber"> 13</span></div>
+                    <div class="reviewStasticsLeftFoot"></div>
+            </div>
+            <div class="reviewStasticsRight">
+                <div class="reviewStasticsRightEmpty"></div>
+                <div class="reviewStasticsFoot"></div>
+            </div>
+        </div>
+            <div class="makeReviewDiv">
+            <form  method="post">
+                <div class="makeReviewText">其他买家，需要你的建议哦！</div>
+                <table class="makeReviewTable">
+                    <tbody><tr>
+                        <td class="makeReviewTableFirstTD">评价商品</td>
+                        <td><textarea name="content"></textarea></td>
+                    </tr>
+                </tbody></table>
+                <div class="makeReviewButtonDiv">
+                    <input type="hidden" value="952" name="oid">
+                    <input type="hidden" value="256" name="pid">
+                    <button type="button">提交评价</button>
+                </div>
+            </form>
+            </div>
+    </div>
+</body>

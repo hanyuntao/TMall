@@ -1,0 +1,13 @@
+div.orderFinishDiv{
+	border    : 1px solid #E5E5E5;
+	padding   : 40px;
+	max-width : 1013px;
+	margin    : 10px auto;
+}
+div.orderFinishDiv span{
+	font-size   : 14px;
+	color       : black;
+	font-weight : bold;
+	margin-left : 20px;
+	padding-top : 20px;
+}

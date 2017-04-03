@@ -1,0 +1,147 @@
+body {
+	font-size   : 12px;
+	font-family : Arial;
+}
+a {
+	color : #999;
+}
+.redColor {
+	color : #C40000 !important;
+}
+nav.top {
+	background-color : #f2f2f2;
+	padding-top      : 5px;
+	padding-bottom   : 5px;
+	border-bottom    : 1px solid #e7e7e7;
+	/*下边缘有1个像素的实线边框，颜色是比背景色#f2f2f2略深的#e7e7e7*/
+}
+nav.top sapn,nav.top a {
+	color  : #999;
+	margin : 0px 10px 0 10px;
+}
+.top a:hover {
+	color : #c40000;
+	/*当鼠标移动到超链上的时候，颜色变为天猫红 #C4000*/
+}
+div.searchDiv {
+	background-color : #c40000;
+	width            : 400px;
+	margin           : 50px auto;
+	padding          : 1px;
+	height           : 40px;
+}
+div.searchDiv input {
+	width   : 275px;
+	border  : 1px solid transparent;
+	height  : 36px;
+	margin  : 1px;
+	outline : none;
+	/*去掉输入框轮廓，否则获取焦点的时候会发生颜色变化*/
+}
+.serchButton {
+	width            : 110px;
+	border           : 1px solid transparent;
+	background-color : #c40000;
+	color            : white;
+	font-size        : 20px;
+	font-weight      : bold;
+}
+div.searchBelow {
+	margin-top  : 3px;
+	margin-left : -20px;
+}
+div.searchBelow span {
+	color :#999;
+}
+div.searchBelow a {
+	padding   : 0 20px 0 20px;
+	font-size : 14px;
+}
+img.logo {
+	position : absolute;
+	left     : 0px;
+	top      : 30px;
+	z-index  : -1;
+}
+div.searchBelow a:hover {
+	text-decoration : none;
+}
+div.simpleSearchDiv {
+	width            : 300px;
+	background-color : #c40000;
+	margin           : 10px 20px 30px;
+	padding          : 1px;
+	height           : 40px;
+}
+div.simpleSearchDiv input {
+	margin  : 1px;
+	border  : 1px solid transparent;
+	outline : none;
+	height  : 36px;
+	width   : 175px
+}
+img.simpleLogo {
+	position : absolute;
+	top      : 160px;
+	left     : 20px;
+}
+div.footer {
+	border-top : 1px solid #e7e7e7;
+	margin     : 0;
+}
+div.footer_ensure {
+	margin     : 24px 0;
+	text-align : center;
+}
+div.footer_desc {
+	border-top  : 1px solid #e7e7e7;
+	padding-top : 30px;
+	margin      : 0 30px;
+}
+div.descColumn {
+	width        : 20%;
+	float        : left;
+	padding-left : 15px;
+}
+div.descColumn .descColumnTitle {
+	font-size   : 16px;
+	font-weight : bold;
+	color       : #646464;
+}
+div.descColumn a {
+	display     : block;
+	/*超链默认是inline,会水平摆放，改成block出现换行效果*/
+	padding-top : 3px;
+}
+div.descColumn a:hover {
+	text-decoration : none;
+	color           : #c40000;
+}
+div.copyRight {
+	background-color : black;
+	border-top       : 2px solid #c40000;
+}
+div.copyRight span.slash {
+	color : white;
+}
+div.copyRight div.white_link {
+	color   : white;
+	padding : 0 5px;
+}
+div.white_link {
+	margin : 10px 10px;
+}
+div.license {
+	margin-left    : 10px;
+	padding-bottom : 30px;
+}
+div.license span {
+	color : #A4A4A4;
+}
+div.copyRightYear {
+	margin : 10px 0px;
+	color  : #686868;
+}
+img.cateye {
+	margin-left : 20px;
+}

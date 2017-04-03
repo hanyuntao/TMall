@@ -1,0 +1,68 @@
+/*确认收货页面 start*/
+div.confirmPayPageDiv {
+	max-width : 1013px;
+	margin    : 10px auto;
+	font-size : 12px;
+
+}
+div.confirmPayPageDiv div.confirmPayImageDiv img {
+	margin-left : 20px;
+}
+div.confirmPayPageDiv div.confirmPayTime1 {
+	display    : inline-block;
+	margin-top : 33px;
+	color      : #b2a599;
+}
+div.confirmPayPageDiv div.confirmPayTime {
+	display     : inline-block;
+	margin-left : 90px ;
+	margin-top  : 33px;
+	color       : #b2a599;
+}
+div.confirmPayOrderInfoDiv div.confirmPayOrderInfoText {
+	margin-top     : 45px;
+	font-size      : 16px;
+	color          : black;
+	font-weight    : 700;
+	padding-bottom : 19px;
+	border-bottom  : 1px solid #abc8e6;
+}
+div.confirmPayOrderItemDiv div.confirmPayOrderItemText {
+	margin    : 23px 20px;
+	font-size : 14px;
+	color     : black;
+}
+div.confirmPayOrderItemDiv table {
+	margin: 0 20px 0 20px;
+	/*width: 100%*/
+}
+div.confirmPayOrderItemDiv table tr {
+	border: 1px solid #bbbbbb;
+}
+div.confirmPayOrderItemDiv table tr th{
+	text-align       : center;
+	background-color : #e8f2ff;
+}
+div.confirmPayOrderItemDiv table tr td {
+	text-align       : center;
+}
+div.confirmPayOrderItemDiv table tr td img {
+	display : inline-block;
+	margin  : 20px;
+}
+div.confirmPayOrderItemDiv table tr td a {
+	color : #b2a599;
+}
+div.confirmPayOrderItemDiv table tr td a:hover {
+	color           : #c40000;
+	text-decoration : none;
+}
+div.confirmPayOrderItemDiv table tr td span.conformPayProductPrice {
+	font-size   : 16px;
+	font-weight : 700;
+	color       : #666666;
+}
+div.confirmPayOrderItemDiv div.confirmPayOrderItemText span.confirmPayOrderItemSumPrice {
+	color : #c40000;
+}
+/*确认收货页面 end*/

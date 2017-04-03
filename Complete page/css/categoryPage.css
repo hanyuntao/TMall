@@ -1,0 +1,125 @@
+/*排序和价格样式 start*/
+div.categoryPageDiv {
+	max-width : 1013px;
+	/*最大宽度1013px，如果用户的分辨率比较大，
+	那么就会使产品列表整体宽度最大1013，并且居中，
+	这样看上去好一点，而不是铺满整个屏幕*/
+	margin    : 10px auto;
+}
+div.categorySortBar {
+	background-color : #FAF9F9;
+	margin           : 40px 20px 20px 20px;
+	padding          : 4px;
+}
+table.categorySortBarTable {
+	display         : inline;
+	border-collapse : collapse;
+}
+table.categorySortBarTable span.glyphicon {
+	font-size : 10px;
+}
+table.categorySortBarTable td {
+	height    : 17px;
+	font-size : 12px;
+	border    : 1px solid #cccccc;
+	padding   : 3px;
+}
+table.categorySortBarTable td.grayColumn {
+	background-color : #F1EDEC;
+}
+table.categorySortBarTable td a {
+	color : #806F66;
+}
+table.categorySortBarTable td a:hover {
+	color : #c40000;
+}
+table.categorySortBarTable td input {
+	border-width : 0px;
+	height       : 17px;
+	width        : 50px;
+}
+table.categorySortBarTable td.priceMiddleColumn {
+	width          : 5px;
+	vertical-align : middle;
+	color          : #cccccc;
+}
+body {
+	font-size   : 12px;
+	font-family : Arial;
+}
+/*排序和价格样式 end*/
+
+
+
+
+/*产品列表样式 start*/
+div.categoryProducts {
+	padding : 0 20px 40px 20px;
+}
+div.productUnit {
+	width  : 225px;
+	height : 338px;
+	border : 3px solid #fff;
+	margin : 12px 5px;
+	float  : left;
+}
+div.productUnit:hover {
+	border:3px solid #c40000;
+}
+div.productUnitFrame {
+	height: 100%;
+	border: 1px solid #eee;
+}
+div.productUnitFrame:hover {
+	border : 1px solid #c40000;
+}
+div.productUnitFrame>a img {
+	width  : 100%;
+	height : 190px;
+}
+div.productUnit span.productPrice {
+	font-size    : 20px;
+	color        : #cc4000;
+	display      : block;
+	padding-left : 4px;
+}
+a.productLink {
+	display : block;
+	height  : 34px;
+	margin  : 10px 0;
+	color   : #333333;
+}
+a.productLink:hover {
+	color           : #c40000;
+	text-decoration : underline;
+}
+div.productUnitFrame a.tmallLink {
+	color           : #999999;
+	display         : block;
+	margin          : 10px 0;
+	text-decoration : underline;
+}
+div.productUnitFrame a.tmallLink:hover {
+	color : #c40000;
+}
+div.productUnitFrame div.productInfo {
+	color  : #999999;
+	border : 1px solid #eeeeee;
+}
+div.productInfo span.monthDealNumber {
+	font-weight : bold;
+	color       : #B57C5B;
+}
+div.productUnit span.productReviewNumber {
+	font-weight : bold;
+	color       : #3388BB;
+}
+div.productUnit span.monthDeal, div.productUnit span.productReview {
+	display      : inline-block;
+	/*显示为内联，既可以设置大小，又能够不换行*/
+	width        : 90px;
+	height       :29px;
+	padding-top  : 5px;
+	padding-left : 5px;
+}
+/*产品列表样式 end*/

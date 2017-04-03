@@ -1,0 +1,89 @@
+div.reviewDiv{
+    max-width : 1013px;
+    margin    : 10px auto;
+}
+div.reviewStasticsDiv{
+    margin-top : 20px;
+}
+div.reviewStasticsLeft{
+    width : 180px;
+    float : left;
+}
+div.reviewStasticsLeftTop{
+    background-color : #C40000;
+    height           : 6px;
+}
+div.reviewStasticsLeftContent{
+    line-height      : 29px;
+    border-left      : 1px solid #D5D4D4;
+    border-right     : 1px solid #D5D4D4;
+    background-color : #F6F5F1;
+    text-align       : center;
+    font-size        : 14px;
+    color            : #363535;
+    font-weight      : bold;
+}
+div.reviewStasticsLeftFoot{
+    height           : 6px;
+    border-left      : 1px solid #D5D4D4;
+    border-bottom    : 1px solid #D5D4D4;
+    background-color : #F6F5F1;
+}
+span.reviewStasticsNumber{
+    color : #284CA5;
+}
+div.reviewStasticsRight{
+    overflow : hidden;
+}
+div.reviewStasticsRightEmpty{
+    height : 35px;
+}
+div.reviewStasticsFoot{
+    background-color  : #F6F5F1;
+    border            : 1px solid #D5D4D4;
+    border-left-width : 0px;
+    height            : 6px;
+}
+div.makeReviewDiv{
+    border           : 1px solid #D1CCC8;
+    margin           : 20px 0px;
+    background-color : #EFEFEF;
+}
+div.makeReviewText{
+    font-size   : 16px;
+    color       : #333333;
+    font-weight : bold;
+    margin      : 20px 40px;
+}
+table.makeReviewTable{
+    margin    : 20px 40px;
+    font-size : 12px;
+}
+table.makeReviewTable td{
+    border           : 1px solid #E7E7E7;
+    padding          : 10px;
+    background-color : white;
+}
+table.makeReviewTable textarea{
+    border-width : 0px;
+    resize       : none;
+    width        : 420px;
+    height       : 120px;
+}
+td.makeReviewTableFirstTD{
+    background-color : #F6F6F6;
+}
+div.makeReviewButtonDiv{
+    background-color : white;
+    text-align       : center;
+    padding          : 15px;
+}
+div.makeReviewButtonDiv button{
+    width            : 72px;
+    height           : 26px;
+    border-radius    : 2px;
+    background-color : #C40000;
+    color            : white;
+    border-width     : 0px;
+    font-weight      : bold;
+}

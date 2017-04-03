@@ -1,0 +1,55 @@
+/*支付成功 start*/
+div.payedDiv {
+	max-width : 1013px;
+	margin    : 10px auto;
+	font-size : 12px;
+	border    : 1px solid #d4d4d4;
+}
+div.payedDiv div.payedTextDiv {
+	background-color : #ecffdc;
+	width            : 100%;
+	height           : 59px;
+	line-height      : 59px;
+	padding-left     : 28px;
+}
+div.payedDiv div.payedTextDiv span {
+	font-size   : 14px;
+	font-weight : 700;
+	display     : inline-block;
+	margin-left : 13px;
+}
+div.payedDiv div.payedAddressInfo {
+	margin : 20px 60px;
+}
+div.payedDiv div.payedAddressInfo ul {
+	margin : 0 16px;
+}
+div.payedDiv div.payedAddressInfo ul li {
+	margin-top : 12px;
+}
+div.payedDiv div.payedAddressInfo span.payedInfoPrice {
+	color       : #c40000;
+	font-weight : 700;
+	font-size   : 14px;
+	font-family : arial;
+}
+div.payedDiv div.payedAddressInfo div.paedCheckLinkDiv {
+	margin-top  : 12px;
+	margin-left : 38px;
+}
+div.payedDiv div.payedSeperateLine {
+	height        : 0px;
+	border-bottom : 1px dashed #d4d4d4;
+	margin        : 0 31px;
+}
+div.payedDiv div.warningDiv {
+	margin : 23px 44px;
+	color  : black;
+}
+div.payedDiv div.warningDiv span.redColor {
+	color : #c40000;
+}
+div.payedDiv div.warningDiv span.boldWord {
+	font-weight : 700;
+}
+/*支付成功 end*/
